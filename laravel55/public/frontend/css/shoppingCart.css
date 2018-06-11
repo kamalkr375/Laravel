@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+.displayUserName{float:left}
+.currentActivePage{float:right}
+.currentActivePage a+a:before{content:url(../images/arrowYellow.png); padding:0 8px; }
+.currentActivePage a{color:#bbb}
+.currentActivePage a.current{color:#333}

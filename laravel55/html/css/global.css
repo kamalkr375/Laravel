@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,600');
+body,input,select,textarea,option,button{font-family: 'Overpass', sans-serif; font-size:1rem;/*14px: 0.875rem;13: 0.8125rem;10px 0.625rem*/color:#333}
+::selection { background: #d9261c;color: #fff}
+::-moz-selection { background: #d9261c; color: #fff}
+input:focus,option:focus,select:focus,textarea:focus {outline: 0!important; border-color: none; box-shadow: 0 0 10px #fff}
+a{text-decoration:none !important; outline: 0}
+.cursor-pointer{cursor:pointer}
+.yellowBg{background:#f6a21a}
+.grayColor,.grayColor a{color:#333 !important}
+.grayBg{background:#f5f5f5}
+.white,a.white{color:#fff}
+.red,.red a{color:#d9261c !important}
+.yellow,.yellow a{color:#f6a21a !important}
+i{font-style:normal}
+.size14{font-size:14px}
+.size16{font-size:16px}
+
+.size18{font-size:18px}
+.size20{font-size:20px}
+.size22{font-size:22px}
+.size24{font-size:24px}
+.size26{font-size:26px}
+.size28{font-size:28px}
+.size30{font-size:30px}
+input:focus{outline:0}
+::-webkit-input-placeholder {color: #a7a7a7;}
+::-moz-placeholder {color: #a7a7a7;}
+:-ms-input-placeholder {color: #a7a7a7;}
+:-moz-placeholder {color: #a7a7a7;}
+ul,li,ol{padding:0;margin:0; list-style-type:none}
+.container{padding-left:0; padding-right:0;}
+a:link,a:visited{color:#d9261c}
+a:hover{color:#333}
+a.reverse:link,a.reverse:visited{color:#333}
+a.reverse:hover{color:#d9261c}
+a.grayText:link,a.grayText:visited,a.grayText:hover{color:#333}
+/*.footerLink a:link,.footerLink a:visited{color:#333}
+.footerLink a:hover{color:#d9261c}*/
+.btns{padding:10px 40px 7px;border:0px; border-radius:35px}
+.bt-gray{border-top:1px solid #ccc}
+.bb-gray{border-bottom:1px solid #ccc}
+.bb-lightGray{border-bottom:1px solid #f5f5f5}
+.bb-red{border-bottom:2px solid #d9261c}
+.bdrGray{border:1px solid #ccc}
+.grayColor a:link,.grayColor a:visited,.grayColor{color:#333 }
+.grayColor a:hover{color:#d9261c}
+.moreBtn a,a.shoppingBtn{padding: 12px 30px 8px;  border: 1px solid #333;  border-radius: 35px;transition:all 1s ease}
+.moreBtn a:hover,a.shoppingBtn:hover{background:#f6a21a;color:#333}
+a.redBdrBtn,input.redBdrBtn{padding: 12px 30px 8px;  border: 1px solid #d9261c;  border-radius: 35px;transition:all 1s ease; background:#fff}
+a.redBdrBtn:hover,input.redBdrBtn:hover{background:#d9261c;color:#fff}
+input.btnSmWhite{padding: 0px 12px 0px; border: 1px solid #333;  border-radius: 35px;   transition: all 1s ease;background:#fff;transition:all 1s ease}
+input.btnSmWhite:hover{background:#f6a21a;color:#333}
+select.locators{/*border:0px*/  background: transparent url('../images/arrowDown.png') no-repeat 90% 50%;
+  -webkit-appearance: none; -moz-appearance: none; border:0}
+
+select.locators option{font-size:14px}
+.content{ overflow: auto;	position: relative;	padding: 0px;margin: 0;	width: 300px;max-width: 100%;	height: 230px;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+  .contentCart{ overflow: auto;	position: relative;	padding: 0px;margin: 0;	width: 340px;max-width: 100%;	height: 234px;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+@media all and (max-width:1169px){
+ul.productList li img{width:99%;}
+
+}
+
+@media all and (min-width:992px) {
+
+
+ul.productList li{width:25%;}
+
+
+}
+
+
+@media all and (min-width:768px) and (max-width:991px){
+	
+ul.productList li{width:33.333%;}
+
+
+}
+@media all and (min-width:768px){
+
+	}
+@media all and (max-width:767px) and (orientation:landscape){
+ul.productList li{width:50%;}
+}

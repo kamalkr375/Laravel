@@ -1,0 +1,69 @@
+/*start class home page*/
+.giftUnder ul li{width:99%; float:left; background:url('../images/home/giftUnderBg.png') repeat-x; height:235px; position:relative; max-width:380px; margin-right:1%;}
+.giftUnder ul li aside{position:absolute; top:0; right:20px}
+.giftUnder p:nth-child(1){margin-top:23px; margin-left:20px }
+.giftUnder p:nth-child(2){margin-top:20px;font-size:34px;margin-left:20px}
+.giftUnder p:nth-child(2) span{font-size:34px}
+.giftUnder p:nth-child(3){margin-top:52px}
+.giftUnder p a{padding: 10px 40px 7px;  border: 1px solid #333;  border-radius: 35px;transition:all 1s ease}
+.giftUnder p a:hover{background:#f6a21a;color:#333}
+ 
+ /*start slider css*/
+  .homePrSlider li {box-sizing: border-box;}
+  .homePrSlider li picture{position:relative;display:block}
+ .homePrSlider li img{border:2px solid transparent; }
+  .homePrSlider li:hover img{border:2px solid #d9261c}
+  .prOverlay{position:absolute; background:rgba(255,255,255,.7);top:2px;left:2px;right:2px;bottom:2px;display:none}
+   .homePrSlider li:hover .prOverlay{display:block;transition:all 10s ease}
+   .homePrSlider li a{   padding: 7px 30px 4px;  border: 1px solid #f6a21a;  border-radius: 35px;transition:all 1s ease;background:#f6a21a;color:#333}
+   .prBtn{position:absolute; top:50%;left:0px;display:block; width:100%; transform: translate(0%, -50%); z-index:999;display:none}
+   .homePrSlider li:hover .prBtn{display:block}
+  ul.homeCategoryBox {margin-bottom:8px}
+   ul.homeCategoryBox {width:100%; display:table;border-collapse:separate;border-spacing:10px; background:#f5f5f5; margin-bottom:0}
+   ul.homeCategoryBox li{width:15%;  border:1px solid #ccc;  display:table-cell;  vertical-align:middle; vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0); 
+  -webkit-transition-property: color;  transition-property: color; -webkit-transition-duration: 0.3s;  transition-duration: 0.3s;  padding:20px 10px;}
+/*ul.homeCategoryBox li:hover{background:#f6a21a}*/
+
+ ul.homeCategoryBox a{display:block; position:relative;}
+ 
+   ul.homeCategoryBox li:before{ content: "";  position: absolute;  z-index: -1;  top: 0;  left: 0;  right: 0;  bottom: 0;  background: #f6a21a;  -webkit-transform: scaleY(0);  transform: scaleY(0);  -webkit-transform-origin: 50% 100%;  transform-origin: 50% 100%;  -webkit-transition-property: transform;  transition-property: transform;  -webkit-transition-duration: 0.3s;  transition-duration: 0.3s;  -webkit-transition-timing-function: ease-out;  transition-timing-function: ease-out;  }
+  ul.homeCategoryBox li:hover:before, ul.homeCategoryBox li:focus:before, .ul.homeCategoryBox li:active:before { -webkit-transform: scaleY(1);  transform: scaleY(1);}
+.hfindGifts img{max-width:100%;}
+.hfindGifts aside.forMen{/*position:absolute;right:0; bottom:100px;*/ }
+.hfindGifts aside.forWomen{/*position:absolute;left:0; top:100px;*/ }
+.hfindGifts{padding-left:0;padding-right:0; }
+.hfindGifts p{max-width:80%}
+.hfindGifts .row{margin:0; padding:0}
+.hfindGifts p{position:relative}
+.hfindGifts a{position:absolute;bottom:20px;}
+.hfindGifts  a{padding: 5px 35px 3px;  border: 1px solid #333;  border-radius: 35px;transition:all 1s ease;color:#333}
+.hfindGifts a:hover{background:#f6a21a;color:#333}
+.hfindGifts a.forWomanBtn{left:20px}
+.hfindGifts a.formanBtn{right:20px}
+.blogBg{background:url('../images/home/blogBg.jpg')no-repeat;border:1px solid #ccc}
+.blogBg aside.blogText{max-width:430px; float:right; margin-top:200px;}
+.blogBg aside  a{padding: 5px 35px 3px;  border: 1px solid #333;  border-radius: 35px;transition:all 1s ease;color:#333}
+.blogBg aside a:hover{background:#f6a21a;color:#333}
+p.sliderText{position:absolute;text-algin:center;width:100%;  top: 50%;   left: 50%;   transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%);}
+p.sliderText img{display:inline-block}
+ /*end slider css*/
+/*end class home page*/
+
+@media all and (max-width:1169px){}
+@media all and (min-width:992px) {
+	.giftUnder ul li{width:24%;margin-right:1.333%}	
+	.giftUnder ul li:last-child{margin-right:0}
+/*	.hotsellerSlider li:first-child img{opacity:.1 !important;   }*/
+	}
+@media all and (min-width:768px) and (max-width:991px){
+	.giftUnder ul li{width:49%;}
+	
+	}
+	
+@media all and (min-width:768px){
+	
+	}
+@media all and (max-width:767px) and (orientation:landscape){
+	.giftUnder ul li{width:49%;}}

@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+.seoContent{padding:15px 0;background:#f5f5f5}
+.seoContent h1{color:#d9261c;font-size:22px;margin-bottom:14px}
+.seoContent h2{color:#333;font-size:18px;margin-bottom:0}
+.seoMoreContent{display:none}
+.seoToggle a{color:#f6a21a}
+.seoToggle a:before{content:'More'}
+.seoToggle a::after{content:"+"; position:absolute;  padding:0 5px}
+.seoToggle.minimizeText a:before{content:'Less'}
+.seoToggle.minimizeText a:after{content:"-";}
+
+p.fHeading{font-size:24px}
+.newsletterNsco input[type="text"]{border:0px;border-bottom:1px solid #636363;width:100%;margin-top:10px;}
+.socialLink a{width:60px; height:60px; background:url('../images/socialIcon.png') no-repeat;display:inline-block;transition:all .5s ease}
+.socialLink a:last-child{margin-right:0}	
+.socialLink a span{display:none}
+.socialLink a:nth-child(1){background-position:0 0}
+.socialLink a:nth-child(2){background-position:-80px 0}
+.socialLink a:nth-child(3){background-position:-160px 0}
+.socialLink a:nth-child(4){background-position:-240px 0}
+.socialLink a:nth-child(5){background-position:-320px 0}
+.socialLink a:hover:nth-child(1){background-position:0 -60px}
+.socialLink a:hover:nth-child(2){background-position:-80px -60px}
+.socialLink a:hover:nth-child(3){background-position:-160px -60px}
+.socialLink a:hover:nth-child(4){background-position:-240px -60px}
+.socialLink a:hover:nth-child(5){background-position:-320px -60px}
+section.paymentOption p img{margin-left:15px}
+section.footerLink div{width:50%; float:left; margin-bottom:20px}
+span.phone:before{content:url(../images/phoneIcon.png); width:20px; height:20px; position:absolute;left:0; padding-left:10px}
+span.phone{padding-left:35px;position:relative}
+span.dateTime{padding-left:20px; position:relative}
+span.dateTime:before{content:'|'; position:absolute; left:0; padding-left:10px; font-size:11px;top:0px }
+.fGeneralLink a + a:before{content:'|'; padding:0 5px; font-size:12px}
+.footerPanel{text-align:center;}
+@media all and (max-width:1169px){}
+
+@media all and (min-width:768px){
+.newsletterNsco aside{width:50%;float:left; }
+.newsletterNsco aside:nth-child(2){float:right; text-align:right; max-width:400px}
+.newsletterNsco aside:nth-child(2) p{text-align:left}
+.newsletterNsco input[type="text"]{width:50%}
+section.footerLink div{width:33.333%; float:left}
+}
+
+@media all and (max-width:992px){
+section.paymentOption span:nth-child(1){display:block; text-align:center}
+section.paymentOption span{margin-bottom:10px}
+}
+
+
+@media all and (min-width:992px) {
+.socialLink a{margin-right:20px}
+section.footerLink div{width:20%; float:left;}
+.footerPanel{text-align:left;}
+.footerPanel aside:nth-child(1){float:left}
+.footerPanel aside:nth-child(2){float:right}
+}
+
+
+@media all and (min-width:768px) and (max-width:991px){	
+p.fHeading{font-size:20px; margin-bottom:0}
+}
+
+@media all and (max-width:767px) and (orientation:landscape){
+
+}
+@media all and (max-width:767px){
+
+
+}
